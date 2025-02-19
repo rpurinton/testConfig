@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "24d795b5448e33c18b31989d8ce18089",
+    "packages": [
+        {
+            "name": "rpurinton/config",
+            "version": "1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rpurinton/config.git",
+                "reference": "040b53569830d4deee4351dfdbc308d217e0c0be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rpurinton/config/zipball/040b53569830d4deee4351dfdbc308d217e0c0be",
+                "reference": "040b53569830d4deee4351dfdbc308d217e0c0be",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RPurinton\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Russell Purinton",
+                    "email": "russell.purinton@gmail.com"
+                }
+            ],
+            "description": "A basic configuration loading utility.",
+            "support": {
+                "issues": "https://github.com/rpurinton/config/issues",
+                "source": "https://github.com/rpurinton/config/tree/1.0.8"
+            },
+            "time": "2025-02-18T22:53:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

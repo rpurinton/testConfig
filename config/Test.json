@@ -1,0 +1,12 @@
+{
+    "var1": "test",
+    "var2": 1,
+    "var3": 1.5,
+    "var4": true,
+    "var5": {
+        "var51": 2,
+        "var52": 2.5,
+        "var53": true
+    }
+}
+
