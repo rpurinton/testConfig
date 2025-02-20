@@ -20,6 +20,7 @@ print_r($config);
 
 function myValidator(bool $input): bool
 {
+	echo("in custom validator!\n");
         return $input;
 }
 
