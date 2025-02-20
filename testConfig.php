@@ -12,8 +12,14 @@ $config = Config::get("Test",[
     "var5" => [
         "var51" => "integer",
         "var52" => "double",
-        "var53" => "bool",
+        "var53" => myValidator(...),
     ]
 ]);
 
 print_r($config);
+
+function myValidator(bool $input): bool
+{
+        return $input;
+}
+
