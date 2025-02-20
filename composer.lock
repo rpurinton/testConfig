@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "rpurinton/config",
-            "version": "1.0.14",
+            "version": "1.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rpurinton/config.git",
-                "reference": "e78181e10d07ab6bdadb627ca6253e053383a0bd"
+                "reference": "163ba765589799486a9d5bee50eccb768b40371c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rpurinton/config/zipball/e78181e10d07ab6bdadb627ca6253e053383a0bd",
-                "reference": "e78181e10d07ab6bdadb627ca6253e053383a0bd",
+                "url": "https://api.github.com/repos/rpurinton/config/zipball/163ba765589799486a9d5bee50eccb768b40371c",
+                "reference": "163ba765589799486a9d5bee50eccb768b40371c",
                 "shasum": ""
             },
             "require": {
@@ -43,9 +43,9 @@
             "description": "A basic configuration loading utility.",
             "support": {
                 "issues": "https://github.com/rpurinton/config/issues",
-                "source": "https://github.com/rpurinton/config/tree/1.0.14"
+                "source": "https://github.com/rpurinton/config/tree/1.0.15"
             },
-            "time": "2025-02-20T22:39:53+00:00"
+            "time": "2025-02-20T22:42:26+00:00"
         }
     ],
     "packages-dev": [],

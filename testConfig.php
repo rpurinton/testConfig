@@ -4,6 +4,8 @@ use RPurinton\Config;
 
 require __DIR__ . '/vendor/autoload.php';
 
+// testing static method.
+
 $config = Config::get("Test",[
     "var1" => "string",
     "var2" => "integer",
@@ -16,11 +18,20 @@ $config = Config::get("Test",[
     ]
 ]);
 
-print_r($config);
-
 function myValidator(bool $input): bool
 {
-	echo("in custom validator!\n");
         return $input;
 }
+
+$config = Config::open("Test");
+$config->config['var6'] = 6;
+$config->save();
+
+$config = Config::get("Test");
+if($config['var6'] !== 6) die("Failure of open/save method\n");
+
+$config = Config::open("Test");
+unset($config->config['var6']);
+$config->save();
+echo("OK!\n");
 
