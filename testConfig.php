@@ -33,7 +33,7 @@ unset($config->config['var6']);
 $config->save();
 
 // test override
-$config = Config::get(["var1" => true],["var1" => myValidator(...)]);
+$config = Config::get("Test",["var1" => myValidator(...)],["var1" => true]);
 
 echo("OK!\n");
 
