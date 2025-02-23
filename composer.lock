@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4fadd836f306228d5daa3b4a1971b108",
+    "content-hash": "7acf11893bd84b07d41627aa5b8c2d85",
     "packages": [
         {
             "name": "rpurinton/config",
@@ -90,22 +90,22 @@
         },
         {
             "name": "rpurinton/log",
-            "version": "1.0.19",
+            "version": "1.0.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rpurinton/log.git",
-                "reference": "67419d8a7820966351cd8b51ba05240c99f5b405"
+                "reference": "cf7becc92b38d8b79bd665c44ffe140532409536"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rpurinton/log/zipball/67419d8a7820966351cd8b51ba05240c99f5b405",
-                "reference": "67419d8a7820966351cd8b51ba05240c99f5b405",
+                "url": "https://api.github.com/repos/rpurinton/log/zipball/cf7becc92b38d8b79bd665c44ffe140532409536",
+                "reference": "cf7becc92b38d8b79bd665c44ffe140532409536",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.0",
                 "rpurinton/config": "^1.0",
-                "rpurinton/https": "^1.0"
+                "rpurinton/webhook": "^1.0"
             },
             "type": "library",
             "autoload": {
@@ -126,9 +126,50 @@
             "description": "A Logging Library",
             "support": {
                 "issues": "https://github.com/rpurinton/log/issues",
-                "source": "https://github.com/rpurinton/log/tree/1.0.19"
+                "source": "https://github.com/rpurinton/log/tree/1.0.20"
             },
-            "time": "2025-02-21T18:01:41+00:00"
+            "time": "2025-02-23T15:56:55+00:00"
+        },
+        {
+            "name": "rpurinton/webhook",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rpurinton/webhook.git",
+                "reference": "46e3bfa1daa114bf49aeabb2006565cf2ada69b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rpurinton/webhook/zipball/46e3bfa1daa114bf49aeabb2006565cf2ada69b4",
+                "reference": "46e3bfa1daa114bf49aeabb2006565cf2ada69b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0",
+                "rpurinton/https": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RPurinton\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Russell Purinton",
+                    "email": "russell.purinton@gmail.com"
+                }
+            ],
+            "description": "A PHP Library for posting to webhooks.",
+            "support": {
+                "issues": "https://github.com/rpurinton/webhook/issues",
+                "source": "https://github.com/rpurinton/webhook/tree/1.0.2"
+            },
+            "time": "2025-02-23T15:55:53+00:00"
         }
     ],
     "packages-dev": [],
