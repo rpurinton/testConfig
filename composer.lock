@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "380cae9dbaaa174fe9d0f66b00b3ba4f",
+    "content-hash": "74803512f8d90663e49b8814e7abe16b",
     "packages": [
         {
             "name": "rpurinton/config",
-            "version": "1.0.22",
+            "version": "1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rpurinton/config.git",
-                "reference": "581d28e4dfea0f4fbb09e811df8947a30c0a1ad9"
+                "reference": "35a0e80b9645eebc154b2c9be57ab75d0bf76371"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rpurinton/config/zipball/581d28e4dfea0f4fbb09e811df8947a30c0a1ad9",
-                "reference": "581d28e4dfea0f4fbb09e811df8947a30c0a1ad9",
+                "url": "https://api.github.com/repos/rpurinton/config/zipball/35a0e80b9645eebc154b2c9be57ab75d0bf76371",
+                "reference": "35a0e80b9645eebc154b2c9be57ab75d0bf76371",
                 "shasum": ""
             },
             "require": {
@@ -43,9 +43,9 @@
             "description": "A basic configuration loading utility.",
             "support": {
                 "issues": "https://github.com/rpurinton/config/issues",
-                "source": "https://github.com/rpurinton/config/tree/1.0.22"
+                "source": "https://github.com/rpurinton/config/tree/1.0.23"
             },
-            "time": "2025-02-23T15:58:51+00:00"
+            "time": "2025-02-25T22:44:06+00:00"
         },
         {
             "name": "rpurinton/https",
@@ -90,22 +90,22 @@
         },
         {
             "name": "rpurinton/log",
-            "version": "1.0.22",
+            "version": "1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rpurinton/log.git",
-                "reference": "f54b8a994caa6c9c95bd5e68fbb462d409504872"
+                "reference": "494bebd18ee64056ef0ce32c38a8d61578ff3675"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rpurinton/log/zipball/f54b8a994caa6c9c95bd5e68fbb462d409504872",
-                "reference": "f54b8a994caa6c9c95bd5e68fbb462d409504872",
+                "url": "https://api.github.com/repos/rpurinton/log/zipball/494bebd18ee64056ef0ce32c38a8d61578ff3675",
+                "reference": "494bebd18ee64056ef0ce32c38a8d61578ff3675",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.0",
-                "rpurinton/config": "^1.0",
-                "rpurinton/webhook": "^1.0"
+                "rpurinton/config": "^1.0.23",
+                "rpurinton/webhook": "^1.0.5"
             },
             "type": "library",
             "autoload": {
@@ -126,27 +126,27 @@
             "description": "A Logging Library",
             "support": {
                 "issues": "https://github.com/rpurinton/log/issues",
-                "source": "https://github.com/rpurinton/log/tree/1.0.22"
+                "source": "https://github.com/rpurinton/log/tree/1.0.23"
             },
-            "time": "2025-02-25T22:31:36+00:00"
+            "time": "2025-02-25T22:47:47+00:00"
         },
         {
             "name": "rpurinton/webhook",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rpurinton/webhook.git",
-                "reference": "8f2d8c945b96bcb30fda2ac36ca5890920c8f2ae"
+                "reference": "7af5ba340ec61c68bc4be31afca0fb041ec5c11f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rpurinton/webhook/zipball/8f2d8c945b96bcb30fda2ac36ca5890920c8f2ae",
-                "reference": "8f2d8c945b96bcb30fda2ac36ca5890920c8f2ae",
+                "url": "https://api.github.com/repos/rpurinton/webhook/zipball/7af5ba340ec61c68bc4be31afca0fb041ec5c11f",
+                "reference": "7af5ba340ec61c68bc4be31afca0fb041ec5c11f",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.0",
-                "rpurinton/https": "^1.0"
+                "rpurinton/https": "^1.0.18"
             },
             "type": "library",
             "autoload": {
@@ -167,9 +167,9 @@
             "description": "A PHP Library for posting to webhooks.",
             "support": {
                 "issues": "https://github.com/rpurinton/webhook/issues",
-                "source": "https://github.com/rpurinton/webhook/tree/1.0.4"
+                "source": "https://github.com/rpurinton/webhook/tree/1.0.5"
             },
-            "time": "2025-02-24T18:37:14+00:00"
+            "time": "2025-02-25T22:44:52+00:00"
         }
     ],
     "packages-dev": [],
