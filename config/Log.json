@@ -1,4 +1,4 @@
 {
     "level": "trace",
-    "file": null
+    "file": "php://stdout"
 }
