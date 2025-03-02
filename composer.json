@@ -1,8 +1,8 @@
 {
     "require": {
         "rpurinton/config": "^1.0.24",
-        "rpurinton/log": "^1.0.29"
+        "rpurinton/log": "^1.0.30"
     },
-    "version": "1.0.14",
+    "version": "1.0.15",
     "type": "project"
 }
